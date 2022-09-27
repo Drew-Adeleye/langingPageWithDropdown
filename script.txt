@@ -1,0 +1,5 @@
+I challenged my self to build this website, but the problem is I have no idea how to it,
+or lets say i have no idea how to implement some of the features. like the hamburger menu
+and the dropdown. but after consuming enough youtube tutorials. i was able to build this on
+my own ..... cool right?
+so let to work.
