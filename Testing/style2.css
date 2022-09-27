@@ -58,7 +58,7 @@ header .links li {
 header .dropdown {
   position: relative;
 }
-header .dropdown-content {
+header .dropdown .dropdown-content {
   position: absolute;
   top: 100;
   opacity: 0;
@@ -73,7 +73,7 @@ header .dropdown-content > * {
   margin: 15px;
 }
 
-header .dropdown:hover .dropdown-content {
+header .dropdown:focus .dropdown-content {
   opacity: 1;
   pointer-events: auto;
   transform: translateY(0px);

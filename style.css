@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+body {
+  font-size: 18px;
+  font-family: "Epilogue", sans-serif;
+  min-height: 100vh;
+  background-color: hsl(0, 0%, 98%);
+}
+
+/* 
+- Almost White: hsl(0, 0%, 98%)
+- Medium Gray: hsl(0, 0%, 41%)
+- Almost Black: hsl(0, 0%, 8%) 
+
+- Font size (paragraph): 18px
+
+*/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+
+header .nav-left {
+  display: flex;
+  gap: 50px;
+}
+header .nav-right {
+  display: flex;
+  gap: 20px;
+}
+
+header .navlinks {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+header .navlinks .dropdown {
+  position: relative;
+}
+header .navlinks li {
+  list-style: none;
+}
+
+header a {
+  color: hsl(0, 0%, 41%);
+  text-decoration: none;
+}
+header .navlinks .dropdown-content {
+  position: absolute;
+  top: calc(100% + 20px);
+  opacity: 0;
+  pointer-events: none;
+  transition: all 200ms linear;
+  transform: translateY(-10px);
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+header .dropdown.active .dropdown-content {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translate(0px);
+}
+header .navlinks .features-drop {
+  left: -75%;
+  width: 160px;
+}
+
+header .navlinks .company-drop {
+  width: 130px;
+}
+
+header .navlinks .dropdown-content li {
+  padding: 10px 20px;
+}
