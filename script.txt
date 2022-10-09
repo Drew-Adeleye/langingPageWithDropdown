@@ -1,5 +1,22 @@
 I challenged my self to build this website, but the problem is I have no idea how to it,
 or lets say i have no idea how to implement some of the features. like the hamburger menu
 and the dropdown. but after consuming enough youtube tutorials. i was able to build this on
-my own ..... cool right?
+my own .....(show clip) cool right?
 so let to work.
+
+after a couple (show clip) of hours i got the nav bar to work, but the problem now was how 
+to implement the mobile view of the navbar. now usually the way its works is to 
+style the navbar differntly on mobile. but i think in this case the easiest way to
+do it, would be to create a totally diferent navbar on mobile. alright that the plan lets go
+
+and after some housrs (show clip) this what the mobile navbar is like, now that all is left to do is
+to hook up some javascript to make the hamburger actully clickable. and add animations and 
+all that cool stuff
+
+so yeah after doing all the javascript (show clip) we have the navbar looking like this now, 
+with the dropdown and everything. alright so desktop (show clip) and mobile (show clip)
+and finally just to intimidate you a little bit with my code (show clip) this is 
+my javascript.
+
+alright so the i'm done with the hardest part. what is left for me is to build the rest of 
+the page and optimse for mobile and im done with the project.

@@ -34,19 +34,19 @@
             <div class="dropdown-content features-drop">
               <ul>
                 <li>
-                  <img src="images/icon-todo.svg" alt="" />
+                  <img src="images/icon-todo.svg" alt="icon-todo" />
                   <a href="#">Todo List</a>
                 </li>
                 <li>
-                  <img src="images/icon-calendar.svg" alt="" />
+                  <img src="images/icon-calendar.svg" alt="icon-calendar" />
                   <a href="#">Calendar</a>
                 </li>
                 <li>
-                  <img src="images/icon-reminders.svg" alt="" />
+                  <img src="images/icon-reminders.svg" alt="icon-reminders" />
                   <a href="#">Reminders</a>
                 </li>
                 <li>
-                  <img src="images/icon-planning.svg" alt="" />
+                  <img src="images/icon-planning.svg" alt="icon-planning" />
                   <a href="#">Planning</a>
                 </li>
               </ul>
@@ -54,7 +54,7 @@
           </li>
           <li class="dropdown" data-dropdown>
             <a href="#" data-dropdown-button>Company</a>
-            <img src="images/icon-arrow-down.svg" alt="" />
+            <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" />
             <div class="dropdown-content company-drop">
               <ul>
                 <li><a href="#">History</a></li>
@@ -69,25 +69,96 @@
       </nav>
       <!-- nav right -->
       <nav class="nav-right">
-        <a href="#">Login</a>
-        <button><a href="#">Register</a></button>
+        <a href="#" class="nav-login">Login</a>
+        <button class="nav-register"><a href="#">Register</a></button>
+        <div class="hamburger">
+          <div class="bar"></div>
+          <div class="bar mid"></div>
+          <div class="bar"></div>
+        </div>
+      </nav>
+
+      <!-- mobile nav -->
+      <nav class="mobile-navbar">
+        <ul>
+          <li class="mobile-dropdown mobile-features">
+            <a href="#">Features</a>
+            <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" />
+            <ul class="mobile-features-drop">
+              <li>
+                <img src="images/icon-todo.svg" alt="icon-todo" />
+                <a href="#">Todo List</a>
+              </li>
+              <li>
+                <img src="images/icon-calendar.svg" alt="icon-calendar" />
+                <a href="#">Calendar</a>
+              </li>
+              <li>
+                <img src="images/icon-reminders.svg" alt="icon-reminders" />
+                <a href="#">Reminders</a>
+              </li>
+              <li>
+                <img src="images/icon-planning.svg" alt="icon-planning" />
+                <a href="#">Planning</a>
+              </li>
+            </ul>
+          </li>
+          <li class="mobile-dropdown mobile-company">
+            <a href="#">Company</a>
+            <img src="images/icon-arrow-down.svg" alt="icon-arrow-down" />
+            <ul class="mobile-company-drop">
+              <li><a href="#">History</a></li>
+              <li><a href="#">Our Team</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">About</a></li>
+        </ul>
+        <a href="#" class="mobile-login">Login</a>
+        <button class="mobile-register"><a href="#">Register</a></button>
       </nav>
     </header>
+    <!-- nav end -->
+    <main class="main">
+      <div class="article-section">
+        <h1 class="desktop">
+          Make <br />
+          remote work
+        </h1>
+        <h1 class="mobile">Make remote work</h1>
+        <p class="desktop">
+          Get your team in sync, no matter your location. <br />
+          Streamline processes, create team rituals, and <br />
+          watch productivity soar.
+        </p>
+        <p class="mobile">
+          Get your team in sync, no matter your location. Streamline processes,
+          create team rituals, and watch productivity soar.
+        </p>
+        <button class="learn">Learn more</button>
+        <div class="clients">
+          <img src="images/client-databiz.svg" alt="client-databiz" />
+          <img src="images/client-audiophile.svg" alt="client-audiophile" />
+          <img src="images/client-meet.svg" alt="client-meet" />
+          <img src="images/client-maker.svg" alt="client-maker" />
+        </div>
+      </div>
+      <div class="img-section">
+        <img
+          src="images/image-hero-desktop.png"
+          alt="image-hero-desktop"
+          class="desktop-img"
+        />
+        <img
+          src="images/image-hero-mobile.png"
+          alt="image-hero-mobile"
+          class="mobile-img"
+        />
+      </div>
+    </main>
 
-    <!-- Features
-  Company
-  Careers
-  About
-
-  Login
-  Register
-
-  Make remote work
-
-  Get your team in sync, no matter your location. Streamline processes, 
-  create team rituals, and watch productivity soar.
-
-  Learn more -->
+    <div class="nav-background"></div>
 
     <div class="attribution">
       Challenge by
