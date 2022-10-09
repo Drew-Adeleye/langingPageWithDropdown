@@ -19,4 +19,4 @@ and finally just to intimidate you a little bit with my code (show clip) this is
 my javascript.
 
 alright so the i'm done with the hardest part. what is left for me is to build the rest of 
-the page and optimse for mobile and im done with the project.
+the page and optimse for mobile and im done with the project. ha
